@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Learn with Sumit - Professional",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.largeFileOptimizations": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons"
+}
