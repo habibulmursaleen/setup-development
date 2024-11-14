@@ -1,27 +1,106 @@
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
   },
   "typescript.validate.enable": true,
   "javascript.validate.enable": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "git.autofetch": true,
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Learn with Sumit - Professional",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "explorer.confirmDragAndDrop": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "GitHub.copilot",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDelete": false,
   "[python]": {
     "editor.formatOnType": true
   },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "editor.largeFileOptimizations": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "azureResourceGroups.groupBy": "resourceGroup",
+  "workbench.startupEditor": "none",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 13,
+  "git.ignoreRebaseWarning": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, FiraCode Nerd Font",
+  "azureResourceGroups.selectedSubscriptions": [],
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "window.newWindowProfile": "Default",
+  "settingsSync.ignoredExtensions": [
+    "sonarsource.sonarlint-vscode"
+  ],
+  "explorer.confirmPasteNative": false,
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
